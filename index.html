@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Contoso Bank</title>
+	<link href="Styling/bootstrap.min.css" rel="stylesheet" />
+	<link href="Styling/main.css" rel="stylesheet" />
+	<script src="Scripts/jquery-3.1.0.min.js"></script>
+	<script src="Scripts/bootstrap.min.js"></script>
+	<script type="text/javascript">
+        function openChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "";
+            var img = document.getElementById("chat-button");
+            img.className = "hide";
+        }
+        function closeChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "hide";
+            var img = document.getElementById("chat-button");
+            img.className = "";
+        }
+    </script>
+
+</head>
+<body>
+	<!-- <div id="headArea">
+		<h1 id="title">Contoso</h1>
+		<button type="button" class="btn btn-info topButton">Info</button>
+		<button type="button" class="btn btn-info topButton">Info</button>
+	</div> -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar">
+				<a class="navbar-brand" href="#"><img id="logo" src="logo.png"></a>
+				<a href="#">Home</a>
+				<a href="#">Page 1</a>
+				<a href="#">Page 2</a>
+				<a href="#">Page 3</a>
+			</div>
+		</div>
+	</nav>
+	<img id="banner" src="bigpicture.png">
+	<div>
+		<div class="col-md-6">
+			<div class="contentsCol">
+				<img src="bankimg.jpg">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="contentsCol">
+				<img src="bankimg.jpg">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="col-md-6">
+			<div class="contentsCol">
+				<img src="bankimg.jpg">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="contentsCol">
+				<img src="bankimg.jpg">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+	</div>
+	<div id="chat">
+        <img id="chat-button" src="logo.png" onclick="openChat()" />
+        <div id="chat-frame" class="hide">
+          <iframe src='https://webchat.botframework.com/embed/MSA_BANK_BOT_L?s=QNcGC0CTPh0.cwA.D3M.6b_iyE0HwE5iTdZhEGx4fIV7FEmnTIBRjYlIdB6mK4o'></iframe>
+          <img src="minus.png" onclick="closeChat()" />
+        </div>
+    </div>
+</body>
+</html>

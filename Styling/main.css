@@ -1,0 +1,92 @@
+
+nav {
+	margin: 0 !important;
+	height: 130px;
+}
+
+.navbar {
+  /*overflow: hidden;*/
+  background-color: grey;
+  position: fixed;
+  /*top: 0;*/
+  width: 100%;
+	height: 100px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav .navbar-nav {
+}
+.navbar-nav li a {
+	height: 130px;
+	padding: 50px 20px;
+}
+
+#logo {
+	height: 80px;
+}
+
+#title {
+	float: left;
+	margin: 0;
+	padding: 20px;
+}
+
+.topButton {
+	float: right;
+	margin: 20px 20px 20px 10px;
+	padding: 10px 25px;
+}
+
+#banner {
+	height: 400px;
+	width: 100%;
+}
+
+.col-md-6 {
+	text-align: center;
+}
+
+.contentsCol img {
+	width: 400px;
+}
+
+#chat {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 500px;
+    height: 500px;
+}
+
+#chat-button {
+    width: 70px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#chat-frame {
+    height: 500px;
+    width: 500px;
+}
+
+#chat-frame img {
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
